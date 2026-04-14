@@ -31,7 +31,7 @@ const DomoForm = (props) => {
             <input id="domoName" type="text" name="name" placeholder="Domo Name" />
             <label htmlFor="age">Age: </label>
             <input id="domoAge" type="number" name="age" min="0" />
-            <input className="formSubmit" type="submit" value="Sign in" />
+            <input className="formSubmit" type="submit" value="Make Domo" />
         </form>
     );
 };
